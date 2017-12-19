@@ -15,6 +15,8 @@
 		4544DDFE1FE8F38600430138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544DDFD1FE8F38600430138 /* main.m */; };
 		4544DE081FE8F38600430138 /* GesturePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544DE071FE8F38600430138 /* GesturePasswordTests.m */; };
 		4544DE131FE8F38700430138 /* GesturePasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544DE121FE8F38700430138 /* GesturePasswordUITests.m */; };
+		4544DE231FE8F4C300430138 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544DE221FE8F4C300430138 /* GestureView.m */; };
+		4544DE261FE8F62000430138 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544DE251FE8F62000430138 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		4544DE0E1FE8F38700430138 /* GesturePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4544DE121FE8F38700430138 /* GesturePasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordUITests.m; sourceTree = "<group>"; };
 		4544DE141FE8F38700430138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4544DE211FE8F4C300430138 /* GestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		4544DE221FE8F4C300430138 /* GestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		4544DE241FE8F62000430138 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4544DE251FE8F62000430138 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		4544DDED1FE8F38600430138 /* GesturePassword */ = {
 			isa = PBXGroup;
 			children = (
+				4544DE201FE8F4A000430138 /* GestureView */,
 				4544DDEE1FE8F38600430138 /* AppDelegate.h */,
 				4544DDEF1FE8F38600430138 /* AppDelegate.m */,
 				4544DDF11FE8F38600430138 /* ViewController.h */,
 				4544DDF21FE8F38600430138 /* ViewController.m */,
+				4544DE241FE8F62000430138 /* SecondViewController.h */,
+				4544DE251FE8F62000430138 /* SecondViewController.m */,
 				4544DDF41FE8F38600430138 /* Main.storyboard */,
 				4544DDF71FE8F38600430138 /* Assets.xcassets */,
 				4544DDF91FE8F38600430138 /* LaunchScreen.storyboard */,
@@ -130,6 +139,15 @@
 				4544DE141FE8F38700430138 /* Info.plist */,
 			);
 			path = GesturePasswordUITests;
+			sourceTree = "<group>";
+		};
+		4544DE201FE8F4A000430138 /* GestureView */ = {
+			isa = PBXGroup;
+			children = (
+				4544DE211FE8F4C300430138 /* GestureView.h */,
+				4544DE221FE8F4C300430138 /* GestureView.m */,
+			);
+			path = GestureView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4544DE261FE8F62000430138 /* SecondViewController.m in Sources */,
 				4544DDF31FE8F38600430138 /* ViewController.m in Sources */,
 				4544DDFE1FE8F38600430138 /* main.m in Sources */,
+				4544DE231FE8F4C300430138 /* GestureView.m in Sources */,
 				4544DDF01FE8F38600430138 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
